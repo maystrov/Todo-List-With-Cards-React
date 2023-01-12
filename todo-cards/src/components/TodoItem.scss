@@ -1,0 +1,72 @@
+.todo-card {
+  font-size: 20px;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px auto;
+
+  .title {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  p {
+    cursor: pointer;
+    margin: 15px;
+    transition: 0.3s;
+
+    &:hover {
+      color: burlywood;
+      transition: 0.3s;
+    }
+  }
+
+  .status,
+  .priority {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 5px;
+  }
+
+  button {
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 37px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: burlywood;
+      transition: 0.3s;
+    }
+  }
+
+  * {
+    display: block;
+    margin: 15px auto;
+    font-size: 20px;
+  }
+  //   *:hover {
+  //     color: cadetblue;
+  //   }
+  textarea {
+    width: 90%;
+  }
+
+  select {
+    padding: 3px 5px;
+    // margin-bottom: 70px;
+    // display: inline-block;
+    // margin-right: 27px;
+    // margin-left: 27px;
+    // margin-top: 30px;
+  }
+  h3 {
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 26px;
+  }
+}
